@@ -4,7 +4,7 @@ Production-ready static marketing site for **Siluetta Esthetics**, a Houston day
 
 ## Live URL
 
-Once GitHub Pages is enabled with **GitHub Actions** as the source:
+After GitHub Pages is enabled from the `main` branch:
 
 https://probuilderoffical.github.io/siluettaesthetics/
 
@@ -12,9 +12,9 @@ https://probuilderoffical.github.io/siluettaesthetics/
 
 - Plain HTML, CSS and vanilla JavaScript
 - No build step or package manager
-- GitHub Pages deployment workflow
+- GitHub Pages-ready from the repository root
 - Responsive layout, mobile call CTA and accessible navigation
-- LocalBusiness/DaySpa structured data, sitemap and robots.txt
+- DaySpa structured data, sitemap and robots.txt
 - External editorial imagery from Unsplash
 
 ## Business details used
@@ -30,8 +30,11 @@ https://www.google.com/maps/search/?api=1&query=Siluetta+Esthetics%2C+13150+FM+5
 ## Publish with GitHub Pages
 
 1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment**, choose **GitHub Actions**.
-3. Pushes to `main` will deploy automatically through `.github/workflows/pages.yml`.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select **main** and **/(root)**.
+4. Click **Save**.
+
+After that, changes pushed to `main` will be published by GitHub Pages automatically.
 
 ## Content note
 
